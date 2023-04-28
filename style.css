@@ -1,0 +1,39 @@
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    margin-bottom: 0%;
+}
+
+.hero-img{
+
+}
+
+/* Utilities */
+
+.bg-dark{
+    background-color: #660708;
+}
+
+.bg-light{
+    background-color: #66ffcc;
+}
+
+.bg-dark2{
+    background-color: #6600cc;
+}
+
+.bg-light2{
+    background-color: #ffff66;
+}
+
+.text-dark{
+    color: #660708;
+}
+
+.text-light{
+    color: #66ffcc;
+}
+
