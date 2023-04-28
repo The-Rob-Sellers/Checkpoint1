@@ -8,6 +8,12 @@ p{
 }
 
 .hero-img{
+    background-image: url(Assets/jediCocky.jpg);
+    min-height: 60vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+
 
 }
 
