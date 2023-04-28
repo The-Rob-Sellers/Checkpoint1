@@ -13,27 +13,35 @@ p{
 
 /* Utilities */
 
-.bg-dark{
-    background-color: #660708;
+.bg-darkGarnet{
+    background-color: #6a1a25;
 }
 
-.bg-light{
+.bg-lightMint{
     background-color: #66ffcc;
 }
 
-.bg-dark2{
+.bg-darkPurple{
     background-color: #6600cc;
 }
 
-.bg-light2{
+.bg-lightYellow{
     background-color: #ffff66;
 }
 
-.text-dark{
-    color: #660708;
+.text-darkGarnet{
+    color: #6a1a25;
 }
 
-.text-light{
+.text-lightMint{
     color: #66ffcc;
+}
+
+.text-darkPurple{
+    color: #6600cc;
+}
+
+.text-lightYellow{
+    color: #ffff66;
 }
 
