@@ -26,12 +26,16 @@ p{
     border: 1px solid rgba(15, 15, 15, 0.26);    
 }
 
+.clickHere-btn{
+    position: absolute;
+    bottom: -19px;
+}
 
-@media (max-width: 768px) {
+
+@media (max-width: 768px){
     .hero-text{
         display: none;
     }
-    
 }
 
 /* Utilities */
