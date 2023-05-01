@@ -26,6 +26,8 @@ p{
     border: 1px solid rgba(15, 15, 15, 0.26);    
 }
 
+/* Only apply the position on medium screens and larger...  you will need a custom media query to do this */
+
 .HeroCard{
     position: absolute;
     bottom: -1px;
@@ -38,7 +40,7 @@ p{
     border: 1px solid rgba(15, 15, 15, 0.26);
 }
 
-
+/* NOTE this only applies to small screens */
 @media (max-width: 768px){
     .hero-text{
         display: none;

@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- FIX ICON IN HEADER ADD FORM-->
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,7 +12,7 @@
     <title>Hire Rob Sellers! 😎</title>
 </head>
 
-<!-- CONTAINER ROW COLUMN MARKUP -->
+<!-- STUB CONTAINER/ROW/COLUMN MARKUP -->
 <style>
   body.debug .container,
   body.debug .container-fluid {
@@ -33,9 +31,11 @@
   }
 </style>
 
+<!-- NOTE remove debug before final submit -->
+
 <body class="debug">
 
-    <!-- Sticky Navbar with Logo and name Row/2 col -->
+    <!-- NOTE Sticky Navbar with Logo and name Row/2 col -->
     <header class="container-fluid bg-lightMint text-light sticky-top">
         <div class="row p-2 justify-content-around align-items-center">
             <div class="col-md-1 col-1 d-flex justify-content-center">
@@ -48,7 +48,7 @@
     </header>
     
     <main class="container-fluid">
-        <!-- Sec 1 image overlay background - Form + Text over Hero Image (mobile: form over image minus text in mobile view)-->
+        <!-- NOTE Sec 1 image overlay background - Form + Text over Hero Image (mobile: form over image minus text in mobile view)-->
         <section class="row hero-img justify-content-center">
             <div class="col-md-5 col-10">
                 <img class="img-fluid" src="Assets/cocky1.png" alt="">
@@ -60,12 +60,14 @@
         </section>
         
         <!-- Sec 2 Row/2 columns floating card (mobile: card fixed and moved to top of column)-->         
-        <section class="row justify-content-around bg-lightMint">
+        <section class="row  bg-lightMint">
             <div class="col-md-5 col-12 position-relative">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. At provident, enim alias quas perferendis autem amet magnam velit maxime dolor, distinctio vel quam dolorum, soluta iusto vitae quod cumque modi.
             </div>
             <div class="HeroCard col-md-7 col-12">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem sed, quos voluptas corrupti aliquid voluptatem. Animi praesentium porro dolores debitis molestiae maiores ipsam corrupti amet pariatur, odio esse veniam maxime.
+                <div>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem sed, quos voluptas corrupti aliquid voluptatem. Animi praesentium porro dolores debitis molestiae maiores ipsam corrupti amet pariatur, odio esse veniam maxime.
+                </div>
             </div>
         </section>
         
@@ -76,10 +78,13 @@
                 <img class="img-fluid" src="Assets/jediCocky.jpg" alt="">
             </div>
             <div class="col-md-9 col-10">
-                <div>
+                <div class="d-flex">
                     <i class="mdi mdi-code-less-than-or-equal fs-1"></i>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At provident, enim alias quas perferendis autem amet magnam velit maxime dolor, distinctio vel quam dolorum, soluta iusto vitae quod cumque modi.                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. At provident, enim alias quas perferendis autem amet magnam velit maxime dolor, distinctio vel quam dolorum, soluta iusto vitae quod cumque modi.                Lorem ipsum dolor sit amet, consectetur adipisicing elit. At provident, enim alias quas perferendis autem amet magnam velit maxime dolor, distinctio vel quam dolorum, soluta iusto vitae quod cumque modi.
+                    </p>
                 </div>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. At provident, enim alias quas perferendis autem amet magnam velit maxime dolor, distinctio vel quam dolorum, soluta iusto vitae quod cumque modi.                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. At provident, enim alias quas perferendis autem amet magnam velit maxime dolor, distinctio vel quam dolorum, soluta iusto vitae quod cumque modi.                Lorem ipsum dolor sit amet, consectetur adipisicing elit. At provident, enim alias quas perferendis autem amet magnam velit maxime dolor, distinctio vel quam dolorum, soluta iusto vitae quod cumque modi.
+     
                 <div class="text-end">
                     <button class="bg-darkGarnet text-light">Click here!</button>
                 </div>
@@ -88,12 +93,20 @@
         
         <!-- Sec 4 Row/3 columns emphasized highlight card in center (mobile: moves to top)-->
         <section class="row justify-content-around bg-lightGray">
-            <div class="glassCard col-md-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere eum unde quia soluta animi enim! Iste iure quasi asperiores.
+            <div class=" col-md-3">
+<!-- NOTE make sure that content inside of column is treated independently -->
+                <div class="glassCard ">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere eum unde quia soluta animi enim! Iste iure quasi asperiores.
+                    </p>
+                </div>
+
             </div>
             <div class="glassCard col-md-3">
-                                *  *  *
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere eum unde quia soluta animi enim! Iste iure quasi asperiores eligendi voluptatibus modi quaerat ea, deleniti omnis corporis reiciendis nihil vitae.
+                        <p>***</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere eum unde quia soluta animi enim! Iste iure quasi asperiores eligendi voluptatibus modi quaerat ea, deleniti omnis corporis reiciendis nihil vitae.
+                        </p>
             </div>
             <div class="glassCard col-md-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere eum unde quia soluta animi enim! Iste iure quasi asperiores.
@@ -102,18 +115,20 @@
         
         <!-- Sec 5 Row single column 2 lines text H1 to H5-->
         <section class="row justify-content-around bg-darkGarnet text-light text-center">
-            <div>
+            <div class="col-12">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto explicabo commodi porro est laboriosam quod at itaque inventore placeat sed repellendus totam magni consequatur, illo deserunt velit vel praesentium incidunt!
             </div>
         </section>     
         
     </main>
     
-    <footer>
+    <footer class="container-fluid">
         <!-- Row single column 1 line text H6  -->
         <section class="row justify-content-around bg-lightGray text-center">
-            <div>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, velit nesciunt est nisi sequi, quisquam nihil aliquid sit impedit, odit illo possimus! Facere voluptatibus minus mollitia quidem consequatur ab quas.
+            <div class="col-12 p-5">
+                <h6>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </h6>
             </div>
         </section>
 
