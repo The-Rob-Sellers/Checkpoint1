@@ -36,9 +36,9 @@
 <body class="debug">
 
     <!-- Sticky Navbar with Logo and name Row/2 col -->
-    <header class="container-fluid bg-lightMint text-light">
+    <header class="container-fluid bg-lightMint text-light sticky-top">
         <div class="row p-2 justify-content-around align-items-center">
-            <div class="col-md-1 col-10 d-flex justify-content-center">
+            <div class="col-md-1 col-1 d-flex justify-content-center">
                 <i class="mdi mdi-code-less-than-or-equal fs-1"></i>
             </div>
             <div class="col-md-10 col-10 m-2">
@@ -47,18 +47,16 @@
         </div>
     </header>
     
-    <main>
-        <!-- Sec 1 Row/2 columns - Form + Text over Hero Image (mobile: form over image minus text in mobile view)-->
-        <section class="row justify-content-around align-items-center bg-darkGarnet">
-            <div class="col-md-5 col-md-8 bg-darkGarnet">
-                <!-- Form here -->
-                <img class="img-fluid" src="Assets/cocky1.png" alt="cocky1">
+    <main class="container-fluid">
+        <!-- Sec 1 image overlay background - Form + Text over Hero Image (mobile: form over image minus text in mobile view)-->
+        <section class="row hero-img justify-content-center">
+            <div class="col-md-5 col-10">
+                <img class="img-fluid" src="Assets/cocky1.png" alt="">
             </div>
-            <!-- Hero image, text on top (missing from mobile) -->
-            <div class="col-md-7 col-10 hero-img">
-                <!-- <img class="img-fluid" src="Assets/jediCocky.jpg" alt="jediCocky"> -->
-                <p class="fst-italic text-light tex-wrap" style="width: 12rem;">Text over an image that disappears in mobile</p>
+            <div class="col-md-7">
+                <p class="hero-text fst-italic text-light text-wrap text-end" style="width: 20rem;">Text over an image that disappears in mobile to be replaced with some witty quote about my awesomeness</p>
             </div>
+
         </section>
         
         <!-- Sec 2 Row/2 columns floating card (mobile: card fixed and moved to top of column)-->         
@@ -66,8 +64,8 @@
             <div class="col-md-4 col-1">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. At provident, enim alias quas perferendis autem amet magnam velit maxime dolor, distinctio vel quam dolorum, soluta iusto vitae quod cumque modi.
             </div>
-            <div class="col-md-8 col-1">
-                card floating into the next row here
+            <div class="glassCard col-md-8 col-1">
+                
             </div>
         </section>
         

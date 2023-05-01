@@ -13,8 +13,23 @@ p{
     background-position: center;
     background-size: cover;
     background-repeat: none;
+}
+
+.glassCard{
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.1px);
+    -webkit-backdrop-filter: blur(8.1px);
+    border: 1px solid rgba(15, 15, 15, 0.26);    
+}
 
 
+@media (max-width: 768px) {
+    .hero-text{
+        display: none;
+    }
+    
 }
 
 /* Utilities */
