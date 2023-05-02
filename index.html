@@ -14,22 +14,22 @@
 
 <!-- STUB CONTAINER/ROW/COLUMN MARKUP -->
 <style>
-  body.debug .container,
-  body.debug .container-fluid {
-    outline: 2px double blue;
-    outline-offset: -2px;
-  }
-
-  body.debug .row {
-    outline: 2px dashed red;
-    outline-offset: -2px;
-  }
-
-  body.debug [class*="col-"] {
-    outline: 2px dotted forestgreen;
-    outline-offset: -3px;
-  }
-</style>
+    body.debug .container,
+    body.debug .container-fluid {
+      outline: 2px double blue;
+      outline-offset: -2px;
+    }
+  
+    body.debug .row {
+      outline: 2px dashed red;
+      outline-offset: -2px;
+    }
+  
+    body.debug [class*="col-"] {
+      outline: 2px dotted forestgreen;
+      outline-offset: -3px;
+    }
+  </style>
 
 <!-- NOTE remove debug before final submit -->
 
@@ -64,7 +64,7 @@
             <div class="col-md-5 col-12 position-relative">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. At provident, enim alias quas perferendis autem amet magnam velit maxime dolor, distinctio vel quam dolorum, soluta iusto vitae quod cumque modi.
             </div>
-            <div class="HeroCard col-md-7 col-12">
+            <div class="HeroCard col-md-6 col-12">
                 <div>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem sed, quos voluptas corrupti aliquid voluptatem. Animi praesentium porro dolores debitis molestiae maiores ipsam corrupti amet pariatur, odio esse veniam maxime.
                 </div>
@@ -74,7 +74,7 @@
         
         <!-- Sec 3 Row/2 columns button in 2nd column -->
         <section class="row justify-content-around align-items-center">
-            <div class="col-md-3 col-10">
+            <div class="col-md-3 col-12">
                 <img class="img-fluid" src="Assets/jediCocky.jpg" alt="">
             </div>
             <div class="col-md-9 col-10">
@@ -93,7 +93,7 @@
         
         <!-- Sec 4 Row/3 columns emphasized highlight card in center (mobile: moves to top)-->
         <section class="row justify-content-around bg-lightGray">
-            <div class=" col-md-3">
+            <div class=" col-md-3 order-1 order-md-0">
 <!-- NOTE make sure that content inside of column is treated independently -->
                 <div class="glassCard ">
                     <p>
@@ -115,15 +115,21 @@
         
         <!-- Sec 5 Row single column 2 lines text H1 to H5-->
         <section class="row justify-content-around bg-darkGarnet text-light text-center">
-            <div class="col-12">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto explicabo commodi porro est laboriosam quod at itaque inventore placeat sed repellendus totam magni consequatur, illo deserunt velit vel praesentium incidunt!
+            <div class="col-6 p-1 d-flex">
+                <div class="glassCard">
+
+                </div>
             </div>
-        </section>     
+            <div class="col-6 p-5">
+                <p class="d-flex">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto explicabo commodi porro est laboriosam quod at itaque inventore placeat sed repellendus totam magni consequatur, illo deserunt velit vel praesentium incidunt!
+                </p>
+                </div>
+            </section>     
         
     </main>
     
     <footer class="container-fluid">
-        <!-- Row single column 1 line text H6  -->
         <section class="row justify-content-around bg-lightGray text-center">
             <div class="col-12 p-5">
                 <h6>
