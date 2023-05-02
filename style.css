@@ -23,14 +23,20 @@ p{
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(8.1px);
     -webkit-backdrop-filter: blur(8.1px);
-    border: 1px solid rgba(15, 15, 15, 0.26);    
+    border: 1px solid rgba(15, 15, 15, 0.26);
+    text-align: center;
 }
 
 /* Only apply the position on medium screens and larger...  you will need a custom media query to do this */
 
+@media (min-width: 768px) {
+    .HeroCard{
+        position: absolute;
+    }
+}
+
 .HeroCard{
-    position: absolute;
-    bottom: -1px;
+    bottom: 100px;
     right: 20px;
     background: #66ffcc;
     border-radius: 16px;
@@ -38,6 +44,7 @@ p{
     backdrop-filter: blur(.1px);
     -webkit-backdrop-filter: blur(4.1px);
     border: 1px solid rgba(15, 15, 15, 0.26);
+    text-align: center;
 }
 
 /* NOTE this only applies to small screens */
